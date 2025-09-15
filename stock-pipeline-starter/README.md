@@ -1,7 +1,7 @@
 # Stock Pipeline Starter (Taiwan-friendly)
 
 這是一個「可直接部署」的自動化每日選股與寄信推播範例：
-- **GitHub Actions** 於台北時間 08:30（工作日）自動執行
+- **GitHub Actions** 於台北時間 18:00（工作日）自動執行
 - 讀取 `tickers.txt` 中的股號（台股請加 `.TW`）
 - 使用 `yfinance` 快速抓取價量資料，計算一些簡易訊號（5/20MA 金叉、量能異常、站上 MA60）
 - 產出 CSV 與 HTML 報表到 `output/`，並用 SMTP 寄信（支援 Gmail）
